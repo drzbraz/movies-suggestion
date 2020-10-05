@@ -1,0 +1,39 @@
+{
+  "name": "movies-suggestion",
+  "version": "1.0.0",
+  "description": "Application to suggest movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drzbraz/movies-suggestion.git"
+  },
+  "keywords": [
+    "movie",
+    "suggestion"
+  ],
+  "author": "Daniel Braz (@drzbraz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drzbraz/movies-suggestion/issues"
+  },
+  "homepage": "https://github.com/drzbraz/movies-suggestion#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
